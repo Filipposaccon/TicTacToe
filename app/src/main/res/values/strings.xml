@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="textview">HA VINTO</string>
+    <string name="indietro">Indietro</string>
+    <string name="button">Button</string>
+    <string name="pareggio">PAREGGIO</string>
+    <string name="Titolo">
+        <p>Tic Tac Toe Game</p>
+    </string>
+    <string name="Informazioni">Informazioni</string>
+    <string name="PlayervsPlayer">Player vs Player</string>
+    <string name="PlayervsComputer">Player vs Computer</string>
+    <string name="Classifica">
+        <p>Classifica</p>
+    </string>
+    <string name="NumeroVittorie">Numero vittorie</string>
+    <string name="Posizione">Posizione</string>
+    <string name="tNomeplayer">
+    <p>Player:</p>
+    </string>
+    <string name="tNomeplayer2">Player 1:</string>
+    <string name="tNomeplayer1">Player 2:</string>
+    <string name="player_x">Player X</string>
+    <string name="player_o">Player O</string>
+    <string name="Reset">Reset</string>
+    <string name="vittorie">Vittorie</string>
+    <string name="rigioca">Rigioca</string>
+</resources>

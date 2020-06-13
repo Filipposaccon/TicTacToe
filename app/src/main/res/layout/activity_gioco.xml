@@ -1,0 +1,147 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/testfoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp" />
+
+    <GridLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/fotoverticale"
+        android:columnCount="3"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/Bottone1"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:background="#0000" />
+
+        <Button
+            android:id="@+id/Bottone2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="27dp"
+            android:background="#0000" />
+
+        <Button
+            android:id="@+id/Bottone3"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="15dp"
+            android:background="#0000"
+            android:layout_marginStart="30dp"
+            />
+
+        <Button
+            android:id="@+id/Bottone4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginStart="23dp"
+            android:background="#0000"
+            />
+
+        <Button
+            android:id="@+id/Bottone5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginStart="28dp"
+            android:background="#0000"
+            />
+
+        <Button
+            android:id="@+id/Bottone6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginStart="30dp"
+            android:background="#0000"
+            />
+
+        <Button
+            android:id="@+id/Bottone7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="23dp"
+            android:background="#0000"
+            />
+
+        <Button
+            android:id="@+id/Bottone8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="28dp"
+            android:background="#0000"
+            />
+
+        <Button
+            android:id="@+id/Bottone9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:background="#0000"
+            />
+
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/tNomeplayer"
+
+        android:textColor="#000000"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/Nomeplayersingolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="420dp"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/BottoneIndietroComputer"
+        android:layout_width="fill_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="Esci"
+        android:layout_height="40dp"
+        android:layout_below="@id/Nomeplayersingolo"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border_button"
+
+
+        />
+</RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
